@@ -1,0 +1,31 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.navbar-hidden {
+  top: -70px; /* Adjust this value based on your navbar height */
+}
+
+section {
+  padding: 100px 0;
+  min-height: 100vh;
+}
+
+.section1 {
+  background-color: #f8b400;
+}
+
+#section2 {
+  background-color: #ff6347;
+}
+
+#section3 {
+  background-color: #4caf50;
+}
+
+.nav-link {
+  color: #555 !important;
+}
